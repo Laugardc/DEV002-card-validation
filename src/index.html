@@ -2,12 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validación tarjeta de crédito</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header> Valida tu tarjeta de crédito para realizar tus pagos oportunamente
+    </header>
+    <section>
+      <figure>
+        <div>
+          <h1>Laboratoria Bank</h1>
+          <img src="images/3imageCredit.jpeg" width="350px" height="250px">
+        </div>
+      </figure>
+      <main>Datos de Tarjeta
+        <form action="" id="cardForm">
+          <div>
+            <label for="inputNumero">Número de Tarjeta</label>
+            <input id="inputNumero" type="tel" inputmode="numeric" pattern="[0-9]" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required autofocus>
+          </div>
+          <div>
+            <label for="inputNombre">Nombre en la Tarjeta </label>
+            <input type="text" id="inputNombre">
+          </div>
+          <button type="submit" class="validacion">Validar</button>
+        </form>
+      </main>
+    </section>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
