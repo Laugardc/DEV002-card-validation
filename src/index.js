@@ -1,6 +1,8 @@
 import validator from './validator.js';
+//isValid()
 
-
-console.log(validator);
-
-validator.isValid('1234567890123456');
+//console.log(validator);
+//const btnIsValid = document.getElementById("btn");
+//btnIsValid.addEventListener("click", validator);
+//console.log(btnIsValid);
+validator.isValid('123456789012334');

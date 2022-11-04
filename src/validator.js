@@ -16,15 +16,17 @@ const validator = {
           //Hazme un nuevoArregloNumeros, que sea igual al valor duplicado en String para poderlo separar
          //console.log(valorDuplicado);
           newArrayNumbers[i] = parseInt(arrDuplicadoSplitted[0]) + parseInt(arrDuplicadoSplitted[1]);//Separar string en sus digitos
-         console.log(arrDuplicadoSplitted);
-          console.log(newArrayNumbers[i]);
+         //console.log(arrDuplicadoSplitted);
+        //console.log(newArrayNumbers[i]);
         }else {
           newArrayNumbers[i] = valorDuplicado;
         }
       }
       else {//sino es posicion par, se queda igual en el newArrayNumbers
         newArrayNumbers[i] = +arrayNumbers[i];
+       console.log(newArrayNumbers[i]);
       }
+
     }
   //console.log(newArrayNumbers[i]);
     //split().map(cardNumber)//string a array
