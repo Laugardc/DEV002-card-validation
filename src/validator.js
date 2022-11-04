@@ -26,31 +26,20 @@ const validator = {
         newArrayNumbers[i] = +arrayNumbers[i];
        console.log(newArrayNumbers[i]);
       }
-
     }
-  //console.log(newArrayNumbers[i]);
-    //split().map(cardNumber)//string a array
-    //return newNumberArray(str)
-    //let newNumberArray;
-    //for (i = 0; i < cardNumber.length; i++){//posiciones pares
-    //if(i % 2 ===0) { 
-    //do(i*2)//multiplicar por dos
-    //while (i>9) slice [0-1] (i=0 + i=1)// mientras sea mayor a 9, divide y suma sus digitos
-    //}
-    //else {
-
-    //Si son las posiciones impares, dejalos igual
-
-    // Recorre el arreglo
-
-    //for (let i = 0; i < arr.length; i += 2) {// el string, se convierte en array con el for, aqui solo me va a dar las posiciones pares dentro del array, lo debo correr de atras hacia adelante
-    //;} // doblar los digitos dentro de las posiciones pares del array, 
-    ////si el numero que arroja es igual (0,1,2,3,4,5,6,7,8,9) dejalo pasar para sumarlo
-    ////que los numeros >9 dividelos en dos digitos para sumarlos
-
-
-
-
+    let sumaTotal = 0;//sumar todos los digitos de mi nuevo arreglo
+    sumaTotal= newArrayNumbers.reduce(function (a,b) {
+      return a + b;
+    });
+    //console.log(sumaTotal); 
+   const isZero= sumaTotal.toString().endsWith('0');
+   if (isZero === true) {
+    console.log("Es valida tu tarjeta");
+   } else {
+    console.log("Es Invalida tu tarjeta");
+    
+   }
+  
   }
 
 };
