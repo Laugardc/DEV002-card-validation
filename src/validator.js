@@ -1,5 +1,7 @@
 const validator = {
   isValid: function (cardNumber) { //declaro la funcion
+    cardNumber = cardNumber.replace(/\s+/g, '');//reemplazar los espacios en blanco en ''
+   // console.log(cardNumber);
     const arrayNumbers = cardNumber.split(''); //Paso el string a un array
     const newArrayNumbers = [];//declaro un nuevo array para guardar sumas
     //console.log(arrayNumbers);
@@ -35,9 +37,10 @@ const validator = {
    const isZero= sumaTotal.toString().endsWith('0');
    if (isZero === true) {
     console.log("Es valida tu tarjeta");
+    return true;
    } else {
     console.log("Es Invalida tu tarjeta");
-    
+    return false;
    }
   
   }
