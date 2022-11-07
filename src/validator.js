@@ -43,8 +43,18 @@ const validator = {
     return false;
    }
   
+  },
+  maskify: function maskify(cardNumber) {
+    var x = cardNumber.length;
+    var output = "";
+    for(var i = 0; i< x - 4;i++)//Se crea un for para que cada posicion menos 4
+      {
+        output += "#";//se cambie por un #
+      }
+     return output + cardNumber.substring(x-4,x); 
+    
   }
-
 };
+
 
 export default validator;

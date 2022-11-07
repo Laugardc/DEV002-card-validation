@@ -15,4 +15,3 @@ buttonValidator.addEventListener('click', function () {//voy a agregar un evento
     }
 });
 
-
