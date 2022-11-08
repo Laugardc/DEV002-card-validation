@@ -2,6 +2,7 @@ import validator from './validator.js';
 
 const buttonValidator = document.getElementById("btn");//Traigo al elemento button de html
 const inputValidator = document.getElementById("inputNumero");//Traigo al elemento input numero
+const parrafoMask= document.getElementById("tarjetaMask");
 
 buttonValidator.addEventListener('click', function () {//voy a agregar un evento 'click' a mi button
     const isValid = validator.isValid(inputValidator.value);//para que cuando suceda el eventl, del valor de mi input numero corra la funcion isValid que esta dentro de validator.
@@ -16,9 +17,12 @@ inputValidator.addEventListener('keyup', function () {
 
     const stringMaskify = validator.maskify(inputValidator.value);
     console.log(stringMaskify);
-    console.log('keyup');
+    console.log('keyup'); 
+    parrafoMask.textContent= stringMaskify;
+
 });
 
 inputValidator.addEventListener('input', function (){
-    this.value = this.value.replace(/[^0-9#]/g, '').replace(/(\..*)\./g, '$1');
+  //  parrafoMask.textContent= this.value.replace(/[^0-9#]/g, '').replace(/(\..*)\./g, '$1');
 });
+

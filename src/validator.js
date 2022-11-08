@@ -44,7 +44,7 @@ const validator = {
    }
   
   },
-  maskify: function maskify(cardNumber) {
+maskify: function maskify(cardNumber) {
     var x = cardNumber.length;
     var output = "";
     for(var i = 0; i< x - 4;i++)//Se crea un for para que cada posicion menos 4

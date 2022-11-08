@@ -14,4 +14,12 @@ body{
 }
 img{
     border-radius: 20px;
+    
+}
+p{
+  position: relative;
+  top: -75px;
+  left: -50px;
+  color: rgb(251, 250, 248);
+
 }
