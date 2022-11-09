@@ -150,6 +150,7 @@ Debe contener lo siguiente:
   3. Foto de primer prototipo en papel
   4. Considero que debo mejorar la función isValid, ya que en los test, me arroja para dos numeros falso cuando deberia ser verdadero, también, quisiera que la función maskify vaya apareciendo sobre el numero a ingresar, mientras el usuario va escribiendo, se que para esto debería hacer un nuevo string donde vaya copiando los valores ingresados, sin embargo se me comentó que sería complejizar demasiado mi código en este momento.
   5. Imagen del prototipo final.
+  *URL de mi proyecto: https://laugardc.github.io/DEV002-card-validation/src/
 
 #### Visualmente (HTML y CSS)
 

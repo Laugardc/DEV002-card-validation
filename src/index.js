@@ -21,6 +21,6 @@ inputValidator.addEventListener('keyup', function () {//Este evento pasa cada qu
 });
 
 inputValidator.addEventListener('input', function (){
-   this.value = this.value.replace(/[^0-9#]/g, '').replace(/(\..*)\./g, '$1');// con esto no permito que entren otros valores que no sean numeros y #, 
+   this.value = this.value.replace(/[^0-9#]/g, '').replace(/(\..*)\./g, '$1');// Regular expresion, es un patron ya con esto no permito que entren otros valores que no sean numeros y #, 
 });
 
