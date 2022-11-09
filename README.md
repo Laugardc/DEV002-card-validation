@@ -1,16 +1,6 @@
 # Tarjeta de crédito válida
 
 ## Índice
-
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-
-***
-
 ## 1. Preámbulo
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
@@ -47,57 +37,15 @@ como tecnologías.
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
 ### HTML
-
-- [ ] **Uso de HTML semántico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
+- [x] **Uso de HTML semántico**
 
 ### CSS
-
-- [ ] **Uso de selectores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
-- [ ] **Modelo de caja (box model): borde, margen, padding**
-
-  <details><summary>Links</summary><p>
-
-  * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
+- [x] **Uso de selectores de CSS**
+- [x] **Modelo de caja (box model): borde, margen, padding**
 
 ### Web APIs
-
-- [ ] **Uso de selectores del DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
-  * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
-
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
-  * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
-</p></details>
-
+- [x] **Uso de selectores del DOM**
+- [x] **Manejo de eventos del DOM (listeners, propagación, delegación)**
 - [ ] **Manipulación dinámica del DOM**
 
   <details><summary>Links</summary><p>
@@ -112,45 +60,11 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### JavaScript
 
-- [ ] **Tipos de datos primitivos**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
-</p></details>
-
-- [ ] **Strings (cadenas de caracteres)**
-
-  <details><summary>Links</summary><p>
-
-  * [Strings](https://curriculum.laboratoria.la/es/topics/javascript/06-strings)
-  * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
-</p></details>
-
-- [ ] **Variables (declaración, asignación, ámbito)**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
-  * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
-</p></details>
-
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
-
-  <details><summary>Links</summary><p>
-
-  * [Bucles (Loops)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/02-loops)
-  * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
+- [x] **Tipos de datos primitivos**
+- [x] **Strings (cadenas de caracteres)**
+- [x] **Variables (declaración, asignación, ámbito)**
+- [x] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+- [x] **Uso de bucles/ciclos (while, for, for..of)**
 - [ ] **Funciones (params, args, return)**
 
   <details><summary>Links</summary><p>
@@ -161,13 +75,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
 </p></details>
 
-- [ ] **Pruebas unitarias (unit tests)**
-
-  <details><summary>Links</summary><p>
-
-  * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
-</p></details>
-
+- [x] **Pruebas unitarias (unit tests)**
 - [ ] **Módulos de ECMAScript (ES Modules)**
 
   <details><summary>Links</summary><p>
@@ -182,11 +90,9 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Control de Versiones (Git y GitHub)
 
-- [ ] **Git: Instalación y configuración**
-
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
+- [x] **Git: Instalación y configuración**
+- [x] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+- [x] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
 
 - [ ] **GitHub: Despliegue con GitHub Pages**
 
@@ -197,21 +103,11 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### user-centricity
 
-- [ ] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
-
-### product-design
-
+- [x] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
-
 - [ ] **Seguir los principios básicos de diseño visual**
 
 ## 4. Consideraciones generales
-
-* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
-  sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -238,44 +134,26 @@ La interfaz debe permitir al usuario:
 
 ### UX (Diseño de experiencia de usuario)
 
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
-
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
-
-### Scripts / Archivos
-
 #### General
 
 ##### `README.md`
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
+* Laboratoria Bank
+* Validador de tarjeta de crédito para egresadas del Boot Camp de Laboratoria
+* La imagen final de tu proyecto. (Adjunta)
+
 * Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  1. Los principales usuarios del producto, son las egresadas del bootcamp de Laboratoria. El objetivo es que las usuarias puedan validar su tarjeta de crédito para pagar oportunamente sus cuotas. 
+  2. Este producto resuelve la duda de si su tarjeta será valida o no
+  3. Foto de primer prototipo en papel
+  4. Considero que debo mejorar la función isValid, ya que en los test, me arroja para dos numeros falso cuando deberia ser verdadero, también, quisiera que la función maskify vaya apareciendo sobre el numero a ingresar, mientras el usuario va escribiendo, se que para esto debería hacer un nuevo string donde vaya copiando los valores ingresados, sin embargo se me comentó que sería complejizar demasiado mi código en este momento.
   5. Imagen del prototipo final.
 
 #### Visualmente (HTML y CSS)
 
-Deberás maquetar de forma exacta el prototipo final que hiciste en la herramienta
-de diseño de prototipos que escogiste utilizando HTML y CSS. En este momento elegirás
-los colores, tipo de fuente, etc a usar.
-
-A continuación describimos los archivos que utilizarás:
+Prototipo Figma (imagen adjunta)
 
 ##### `src/index.html`
 

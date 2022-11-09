@@ -33,25 +33,25 @@ const validator = {
     sumaTotal= newArrayNumbers.reduce(function (a,b) {
       return a + b;
     });
-    //console.log(sumaTotal); 
-   const isZero= sumaTotal.toString().endsWith('0');
-   if (isZero === true) {
+    console.log(sumaTotal); 
+   const isZero= sumaTotal.toString().endsWith('0'); // si en la suma total, en el string el ultimo valor es 0
+   if (isZero === true) {// si es true mi tarjeta es valida ya que cumple con el algoritmo
     console.log("Es valida tu tarjeta");
     return true;
-   } else {
+   } else {//si no es 0, es falso y mi tarjeta es invalida
     console.log("Es Invalida tu tarjeta");
     return false;
    }
   
   },
-maskify: function maskify(cardNumber) {
+maskify: function maskify(cardNumber) {//Mi funcion maskify va a actuar sobre el cardNumber, que es el dato que ingresa el usuario
     var x = cardNumber.length;
     var output = "";
     for(var i = 0; i< x - 4;i++)//Se crea un for para que cada posicion menos 4
       {
         output += "#";//se cambie por un #
       }
-     return output + cardNumber.substring(x-4,x); 
+     return output + cardNumber.substring(x-4,x); //cuando retorna termina la ejecucion de mi funcion
     
   }
 };
