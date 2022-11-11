@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Validación tarjeta de crédito</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header> Valida tu tarjeta de crédito para realizar tus pagos oportunamente
+    </header>
+    <section>
+      <figure>
+        <div>
+          <h1>Laboratoria Bank</h1>
+          <img src="images/page0.jpg" width="300px" height="190px">
+          <p id="tarjetaMask">##########1234</p>
+        </div>
+      </figure>
+      <main>Datos de Tarjeta
+        <form action="" id="cardForm">
+          <div>
+            <label for="inputNumero">Número de Tarjeta</label>
+            <input id="inputNumero" type="text" placeholder="##########1234" required autofocus/>  
+          </div>
+          <div>
+            <label for="inputNombre">Nombre en la Tarjeta </label>
+            <input type="text" id="inputNombre">
+          </div>
+          <button type="button" class="validacion" id="btn">Validar </button>
+        </form>
+      </main>
+    </section>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

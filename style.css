@@ -1,0 +1,25 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h1{
+    padding: 1em;
+    color: rgb(225, 187, 16);
+    border-radius: 20px;
+    background-image: radial-gradient(rgb(1, 1, 1),#121211);
+}
+body{
+    background-image: linear-gradient(rgb(255, 200, 0),rgb(236, 236, 81));
+    font-size:larger;
+}
+img{
+    border-radius: 20px;
+    
+}
+p{
+  position: relative;
+  top: -75px;
+  left: -50px;
+  color: rgb(251, 250, 248);
+
+}
