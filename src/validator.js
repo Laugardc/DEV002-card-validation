@@ -1,7 +1,7 @@
 const validator = {
   isValid: function (cardNumber) { //declaro la funcion
     cardNumber = cardNumber.replace(/\s+/g, '');//reemplazar los espacios en blanco en ''
-   // console.log(cardNumber);
+   //console.log(cardNumber);
     const arrayNumbers = cardNumber.split(''); //Paso el string a un array
     const newArrayNumbers = [];//declaro un nuevo array para guardar sumas
     //console.log(arrayNumbers);
@@ -26,7 +26,7 @@ const validator = {
       }
       else {//sino es posicion par, se queda igual en el newArrayNumbers
         newArrayNumbers[i] = +arrayNumbers[i];
-       console.log(newArrayNumbers[i]);
+       //console.log(newArrayNumbers[i]);
       }
     }
     let sumaTotal = 0;//sumar todos los digitos de mi nuevo arreglo

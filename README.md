@@ -14,7 +14,7 @@ par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![img](./src/images/Diagrama%20de%20Flujo%20Algoritmo%20Luhn.png)
 
 ## 2. Resumen del proyecto
 
@@ -107,38 +107,26 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
 - [ ] **Seguir los principios básicos de diseño visual**
 
-## 4. Consideraciones generales
-
 ## 5. Criterios de aceptación mínimos del proyecto
 
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
 
-En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
-
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+La pagina Laboratoria Bank esta construida para que las usuarias que egresan del bootcamp, puedan validar su tarjeta de credito para poder pagar sus cuotas oportunamente.
 
 ### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
 
-* Insertar el número que queremos validar.
+* Insertar el número que queremos validar.  
 * Ver el resultado si es válido o no.
 * Ocultar todos los dígitos de su número de tarjeta menos los últimos
 4 caracteres.
 * No debe poder ingresar un campo vacío.
 
-### UX (Diseño de experiencia de usuario)
-
-#### General
 
 ##### `README.md`
-
-Debe contener lo siguiente:
 
 * Laboratoria Bank
 * Validador de tarjeta de crédito para egresadas del Boot Camp de Laboratoria
@@ -148,13 +136,17 @@ Debe contener lo siguiente:
   1. Los principales usuarios del producto, son las egresadas del bootcamp de Laboratoria. El objetivo es que las usuarias puedan validar su tarjeta de crédito para pagar oportunamente sus cuotas. 
   2. Este producto resuelve la duda de si su tarjeta será valida o no
   3. Foto de primer prototipo en papel
+  ![img](./src/images/Prototipo%20en%20papel.png)
   4. Considero que debo mejorar la función isValid, ya que en los test, me arroja para dos numeros falso cuando deberia ser verdadero, también, quisiera que la función maskify vaya apareciendo sobre el numero a ingresar, mientras el usuario va escribiendo, se que para esto debería hacer un nuevo string donde vaya copiando los valores ingresados, sin embargo se me comentó que sería complejizar demasiado mi código en este momento.
   5. Imagen del prototipo final.
+  ![img](./src/images/Imagen%20final%20de%20Proyecto.png)
+
   *URL de mi proyecto: https://laugardc.github.io/DEV002-card-validation/src/
 
 #### Visualmente (HTML y CSS)
 
 Prototipo Figma (imagen adjunta)
+![img](./src/images/Prototipo%20Figma.png)
 
 ##### `src/index.html`
 
@@ -165,6 +157,8 @@ de cero:
 * `<header>`: encabezado de tu proyecto.
 * `<main>`: contenido principal de tu proyecto.
 * `<footer>`: pie de página de tu proyecto.
+
+
 
 ##### `src/style.css`
 
@@ -226,90 +220,3 @@ Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
 _statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
 mínimo del 50% de _branches_ (ramas).
 
-***
-
-## 6. Pistas, tips y lecturas complementarias
-
-### Primeros pasos
-
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
-   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
-   10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
-   hacia el mismo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
-8. A codear se ha dicho! :rocket:
-
-### Recursos y temas relacionados
-
-A continuación un video de Michelle que te lleva a través del algoritmo de Luhn
-y un par de cosas más que debes saber para resolver este proyecto. ¡Escúchala
-con detenimiento y sigue sus consejos! :)
-
-[![tips credit card](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-
-[Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
-
-También una metodología para empezar a desarrollar tareas con JavaScript:
-
-[![Resolución de problemas con JavaScript](http://i3.ytimg.com/vi/lYfEmhLmu7A/hqdefault.jpg)](https://www.youtube.com/watch?v=lYfEmhLmu7A)
-
-[Link](https://www.youtube.com/watch?v=lYfEmhLmu7A)
-
-Terminal y shell de UNIX:
-
-[![Playlist de Terminal y shell de UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
-
-[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
-
-Control de versiones y trabajo colaborativo con Git y GitHub:
-
-[![Playlist de control de versiones y trabajo colaborativo](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
-
-[Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
-
-Diseño de experiencia de usuario (User Experience Design):
-
-* Ideación
-* Prototipado (sketching)
-* Testeo e Iteración
-
-Desarrollo Front-end:
-
-* Valores
-* Tipos
-* Variables
-* Control de flujo
-* Tests unitarios
-* [Documentación de NPM](https://docs.npmjs.com/)
-
-Organización del Trabajo:
-
-* [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
-* [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
-* [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
-  esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
-  poco a lo largo del -_bootcamp_.
-* [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).

@@ -6,6 +6,7 @@ const parrafoMask= document.getElementById("tarjetaMask");// Traigo al elemento 
 
 buttonValidator.addEventListener('click', function () {//voy a agregar un evento 'click' a mi button
     const isValid = validator.isValid(inputValidator.value);//para que cuando suceda el evento, del valor de mi input numero corra la funcion isValid que esta dentro de validator.
+    console.log(isValid);
     if (isValid === true){
         alert('Tarjeta valida');//si es true mi validator, va a arrojarme alerta Tarjeta valida
     } else {
@@ -15,8 +16,8 @@ buttonValidator.addEventListener('click', function () {//voy a agregar un evento
 
 inputValidator.addEventListener('keyup', function () {//Este evento pasa cada que sueltan tecla en mi inputNumero
     const stringMaskify = validator.maskify(inputValidator.value);//cree una variable para que en mi funcion maskiky entre el valor del inputValidator. Entra el string de inputNumero y sale mi string con #y ultimos 4 digitos
-    console.log(stringMaskify);
-    console.log('keyup'); 
+    //console.log(stringMaskify);
+    //console.log('keyup'); 
     parrafoMask.textContent= stringMaskify;//aqui el string que entra ya con el maskify, sale en un parrafo de texto con la mask visual en la interfaz, el parrafo va a tener lo que hace mi funcion maskify
 });
 
